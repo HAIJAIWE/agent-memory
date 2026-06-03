@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-memory"
+version = "0.1.0"
+description = "A hierarchical memory system for AI agents"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Agent Memory Contributors"}
+]
+
+[project.urls]
+Repository = "https://github.com/HAIJAIWE/agent-memory"
+Documentation = "https://github.com/HAIJAIWE/agent-memory/docs"
